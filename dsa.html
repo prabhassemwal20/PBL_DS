@@ -1,82 +1,40 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEN-Scroll | DSA Stack Project</title>
-    <link rel="stylesheet" href="dsa.css">
-</head>
-<body>
-    <header>
-        <h1>GEN-Scroll</h1>
-        <p>Stack-based DSA Feed Simulation</p>
-    </header>
-
-    <main>
-        <div id="feed-container"></div>
-
-        <div id="controls">
-            <button id="prev">⏮️ Pop (Previous)</button>
-            <button id="next">⏭️ Traverse (Next)</button>
-        </div>
-
-        <div id="stats">
-            <p>Push: <span id="push-count">0</span> | Pop: <span id="pop-count">0</span> | Traverse: <span id="traverse-count">0</span></p>
-        </div>
-    </main>
-
-    <footer>
-        <p>Developed by GEHU STUDENTS | GEN-Scroll © 2025</p>
-    </footer>
-
-    <script src="dsa.js"></script>
-</body>
-</html>
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEN-Scroll | DSA Stack Project</title>
-    <link rel="stylesheet" href="dsa.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GEN-Scroll | DSA Stack Project</title>
+<link rel="stylesheet" href="dsa.css">
 </head>
 <body>
-    <header>
-        <h1>GEN-Scroll</h1>
-        <p>Stack-based DSA Feed Simulation</p>
-    </header>
+<header>
+  <h1>GEN-Scroll</h1>
+  <p>Stack-based DSA Feed Simulation</p>
+</header>
 
-    <main>
-        <!-- Outer feed container -->
-        <div id="feed-container">
-            <!-- Inner video wrapper matches feed-container size -->
-            <div class="video-wrapper">
-                
-                <iframe src="https://www.youtube.com/embed/xuP4g7IDgDM?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=xuP4g7IDgDM" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-                 
-            
-            </div>
+<main class="content">
+  <!-- JS will create the YouTube player here -->
+  <div id="feed-container"></div>
 
-                
-            </div>
-        </div>
+  <div id="controls">
+    <button id="push">⬆️ Push</button>
+    <button id="pop">⬇️ Pop</button>
+    <button id="traverse">🔁 Traverse</button>
+  </div>
 
-        <div id="controls">
-            <button id="prev">⏮️ Pop (Previous)</button>
-            <button id="next">⏭️ Traverse (Next)</button>
-        </div>
+  <div id="stats">
+    <p>
+      Push: <span id="push-count">0</span> |
+      Pop: <span id="pop-count">0</span> |
+      Traverse: <span id="traverse-count">0</span>
+    </p>
+  </div>
+</main>
 
-        <div id="stats">
-            <p>Push: <span id="push-count">0</span> | Pop: <span id="pop-count">0</span> | Traverse: <span id="traverse-count">0</span></p>
-        </div>
-    </main>
+<footer>
+  <p>Developed by GEHU STUDENTS | GEN-Scroll © 2025</p>
+</footer>
 
-    <footer>
-        <p>Developed by GEHU STUDENTS | GEN-Scroll © 2025</p>
-    </footer>
-
-    <script src="dsa.js"></script>
+<script src="dsa.js"></script>
 </body>
 </html>
